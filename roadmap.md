@@ -1,0 +1,15 @@
+# ChemiUni Phase 1 demo dataset
+- [x] Reproduce GO_BACK at direct score save; replace timed onboarding navigation and add guarded score/preference save destinations. Quick view clean onboarding, scores, Home, My List, counselor entry, reload and empty-stack resaves passed without runtime/navigation errors.
+- [x] Trace Unauthorized to preview-host 401 and Expo metadata authorization warning; local version-check denial does not block offline screens. Restore declared AI dependency and explicit Expo TypeScript-base resolution.
+- [x] Run 35 Expo and 5 service regression tests; automatic build/type checks report OK. Verify offline screens despite a controlled version-service 401.
+- [ ] Restore hosted preview authorization: platform returns raw 401 before app code; requires Lovable session/platform recovery, not weakening app auth.
+- [ ] Verify Android simulator: unavailable to this session; Quick view checks are not native Android verification.
+- [x] Add secure real-AI counselor and one locally saved conversation without changing existing design.
+- [x] Implement validated individual proposals, confirmed removals, and atomic saved-list updates.
+- [x] Validate 31 Expo tests and 5 service tests; real model returned two valid proposals; controlled Quick view tests verified approvals, restart persistence, errors, and both appearances. Automated build checks OK; focused lint has no errors; full lint retains existing errors.
+- [ ] Verify signed-in end-to-end real AI flow: blocked by no Cloud auth users; owner must invite/create an account.
+- [ ] Verify native iOS: blocked by no observed simulator session; phone shell update must finish, then reopen.
+- [x] Inspect existing data consumers, scoring, shortlist, and persistence.
+- [x] Expand to 20–30 institutions and 100–150 coherent programs, preserving existing IDs and design.
+- [x] Validate data integrity and deterministic student scenarios with tests (14 tests passed; all 28 original programs and 8 institutions unchanged).
+- [x] Verify Explore, filters, details, shortlist changes, and saved data in Quick view (124 programs, all filters, three institutions, persisted addition/removal, score edits; no page errors; automatic build checks OK).

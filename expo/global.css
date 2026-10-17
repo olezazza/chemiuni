@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 247 248 252;
+    --foreground: 32 40 62;
+    --card: 255 255 255;
+    --card-foreground: 32 40 62;
+    --primary: 49 92 218;
+    --primary-foreground: 255 255 255;
+    --accent: 49 92 218;
+    --accent-foreground: 255 255 255;
+    --secondary: 234 240 251;
+    --secondary-foreground: 32 40 62;
+    --muted: 237 240 246;
+    --muted-foreground: 88 100 123;
+    --destructive: 180 51 73;
+    --destructive-foreground: 255 255 255;
+    --border: 220 226 237;
+    --input: 238 242 249;
+    --safe: 22 115 94;
+    --target: 147 96 16;
+    --reach: 117 84 173;
+    --violet: 117 84 173;
+    --violet-soft: 238 232 250;
+    --safe-soft: 225 244 236;
+    --target-soft: 255 240 212;
+    --reach-soft: 238 232 250;
+  }
+  .dark:root {
+    --background: 18 25 39;
+    --foreground: 238 242 252;
+    --card: 28 38 56;
+    --card-foreground: 238 242 252;
+    --primary: 65 109 226;
+    --primary-foreground: 255 255 255;
+    --accent: 158 188 255;
+    --accent-foreground: 18 25 39;
+    --secondary: 41 54 76;
+    --secondary-foreground: 238 242 252;
+    --muted: 38 50 71;
+    --muted-foreground: 175 189 210;
+    --destructive: 255 155 169;
+    --destructive-foreground: 18 25 39;
+    --border: 53 67 90;
+    --input: 38 50 71;
+    --safe: 140 219 192;
+    --target: 241 196 117;
+    --reach: 199 172 255;
+    --violet: 199 172 255;
+    --violet-soft: 53 46 76;
+    --safe-soft: 32 60 57;
+    --target-soft: 66 56 41;
+    --reach-soft: 53 46 76;
+  }
+}
+[role="tablist"] [role="tab"] > div[dir] { flex-shrink: 0; }

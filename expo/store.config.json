@@ -1,0 +1,23 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "info": {
+      "en-US": {
+        "title": "ChemiUni University Choices",
+        "subtitle": "Explore programs and plan",
+        "description": "Explore Georgian-language university and degree-program choices with ChemiUni. Save your exam scores and preferences on your device, compare illustrative assessments, and create a personal priority list.\n\nDiscuss your options with an AI university counselor after creating your list and signing in. Review each suggested addition, replacement, or removal individually. Nothing changes until you approve it.\n\nThe program catalog, tuition, funding information and admission assessments are demonstration data, not verified admissions statistics. ChemiUni does not guarantee admission.\n\nChoose light, dark, or system appearance. Your scores, list and ongoing counselor conversation stay saved on your device.",
+        "keywords": ["education", "georgian", "student", "exam", "counselor", "college"],
+        "promoText": "Compare demo degree programs and review counselor suggestions with individual approval."
+      }
+    }
+  },
+  "play": {
+    "info": {
+      "en-US": {
+        "title": "ChemiUni University Choices",
+        "shortDescription": "Explore demo degree programs and review personalized university choices.",
+        "fullDescription": "ChemiUni helps students explore university and degree-program choices in Georgian. Enter exam scores, select a study field, city and budget preferences, and build a personal program list.\n\nBrowse the demonstration university catalog, compare program details and view illustrative admission assessments calculated from your scores. Save exam scores, preferences and selected programs locally on your device.\n\nAfter creating a list, sign in to discuss your university choices with an AI counselor. The counselor can suggest additions, replacements or removals using programs in the available catalog. Review each proposal separately, accept or reject it, or accept all valid pending suggestions. Standalone removals require confirmation. Approved changes and your ongoing conversation are saved locally.\n\nAll admissions figures, tuition and funding information are simulated demonstration data, not verified official statistics. Assessments are not validated admission probabilities or guarantees.\n\nChemiUni supports light, dark and system appearance with Georgian-compatible typography."
+      }
+    }
+  }
+}
