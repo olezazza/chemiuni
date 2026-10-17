@@ -1,29 +1,33 @@
-# Welcome to your Lovable project
+# ChemiUni
 
-This project was built with [Lovable](https://lovable.dev).
+**ChemiUni** is a university and degree-program matching app designed to help students in Georgia explore their higher education options and make more informed decisions about their future.
 
-## Build with Lovable
+## Features
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+- **University program matching** — explore programs based on your exam scores and preferences.
+- **Personal university list** — save and manage programs you're interested in.
+- **AI counselor** — get personalized suggestions and guidance while exploring your options.
+- **Program exploration** — browse available degree programs and compare your choices.
+- **Mobile app** — built with React Native and Expo for Android.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Built With
 
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
-
-## Built with
-
-- TanStack Start
+- React Native
+- Expo
 - TypeScript
-- React
-- Tailwind CSS
+- Supabase
+- Lovable AI Gateway
+
+## Project Status
+
+ChemiUni is an active project being developed and tested.
+
+**Note:** Matching results and estimates are intended as guidance, not official admission predictions. Always verify admission requirements and program information with the relevant universities and official Georgian examination sources.
+
+## Getting Started
+
+The project uses Expo. To run it locally, install the project dependencies and start the development server using the scripts defined in `package.json`.
+
+## Feedback
+
+Suggestions, bug reports, and ideas for improving ChemiUni are welcome.
